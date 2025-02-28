@@ -1,0 +1,13 @@
+prefix=/Users/sanjumsanthosh/Desktop/projects/mlprojects/ml-projects/venv
+exec_prefix=/Users/sanjumsanthosh/Desktop/projects/mlprojects/ml-projects/venv
+libdir=/Users/sanjumsanthosh/Desktop/projects/mlprojects/ml-projects/venv/lib
+sharedlibdir=/Users/sanjumsanthosh/Desktop/projects/mlprojects/ml-projects/venv/lib
+includedir=/Users/sanjumsanthosh/Desktop/projects/mlprojects/ml-projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
